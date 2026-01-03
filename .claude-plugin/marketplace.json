@@ -12,24 +12,24 @@
       "name": "quiz-master",
       "version": "1.0.0",
       "description": "智能刷题学习插件 - 支持题库管理、智能提问、即时反馈和学习进度追踪",
-      "repository": "https://github.com/yachenyanyi/claude-tools.git",
-      "source": "https://github.com/yachenyanyi/claude-tools.git",
+      "repository": "https://github.com/yachenyanyi/claude-marketplace.git",
+      "source": "./quiz-master",
       "category": "learning",
       "keywords": ["quiz", "learning", "education", "study", "exam", "practice"],
       "commands": [
-        "quiz-import",
-        "quiz-start",
-        "quiz-status",
-        "quiz-analyze",
-        "quiz-list"
+        "./commands/quiz-import.md",
+        "./commands/quiz-start.md",
+        "./commands/quiz-status.md",
+        "./commands/quiz-analyze.md",
+        "./commands/quiz-list.md"
       ],
       "skills": [
-        "quiz-format-parser",
-        "quiz-ai-extractor",
-        "quiz-learning-analytics"
+        "./skills/quiz-format-parser",
+        "./skills/quiz-ai-extractor",
+        "./skills/quiz-learning-analytics"
       ],
       "agents": [
-        "learning-analyzer"
+        "./agents/learning-analyzer.md"
       ]
     }
   ]
