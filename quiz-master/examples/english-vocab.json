@@ -1,0 +1,104 @@
+{
+  "name": "english-vocab-demo",
+  "description": "英语词汇示例题库",
+  "tags": ["英语", "词汇", "示例"],
+  "questions": [
+    {
+      "id": "q001",
+      "type": "choice",
+      "question": "apple 的中文意思是？",
+      "options": ["香蕉", "苹果", "橙子", "葡萄"],
+      "answer": "苹果",
+      "explanation": "apple 是苹果的英文单词，是最常见的水果之一。",
+      "tags": ["水果"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q002",
+      "type": "choice",
+      "question": "banana 的中文意思是？",
+      "options": ["香蕉", "苹果", "橙子", "西瓜"],
+      "answer": "香蕉",
+      "explanation": "banana 是香蕉的英文单词，热带水果的代表。",
+      "tags": ["水果"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q003",
+      "type": "choice",
+      "question": "The opposite of 'hot' is:",
+      "options": ["warm", "cold", "cool", "dry"],
+      "answer": "cold",
+      "explanation": "Hot (热) 的反义词是 cold (冷)。",
+      "tags": ["反义词"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q004",
+      "type": "fillblank",
+      "question": "请填空：I have a ___. (我有一个___。/苹果)",
+      "answer": "apple",
+      "explanation": "I have an apple.",
+      "tags": ["水果", "句子"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q005",
+      "type": "essay",
+      "question": "用英语描述你最喜欢的水果，至少3句话。",
+      "answer": "My favorite fruit is apple. It is red and sweet. I eat one every day.",
+      "explanation": "这是一个开放性问答题，答案可以有多种表达方式。",
+      "tags": ["写作", "水果"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q006",
+      "type": "choice",
+      "question": "orange 的中文意思是？",
+      "options": ["苹果", "香蕉", "橙子", "葡萄"],
+      "answer": "橙子",
+      "explanation": "orange 是橙子的英文单词，富含维生素C。",
+      "tags": ["水果"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q007",
+      "type": "choice",
+      "question": "The past tense of 'go' is:",
+      "options": ["goed", "went", "gone", "going"],
+      "answer": "went",
+      "explanation": "go 的过去式是不规则变化，为 went。",
+      "tags": ["动词", "时态"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q008",
+      "type": "choice",
+      "question": "grape 的中文意思是？",
+      "options": ["西瓜", "葡萄", "草莓", "樱桃"],
+      "answer": "葡萄",
+      "explanation": "grape 是葡萄的英文单词，可制成葡萄酒。",
+      "tags": ["水果"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q009",
+      "type": "fillblank",
+      "question": "填空：She ___ to school yesterday. (她昨天去学校了。/go)",
+      "answer": "went",
+      "explanation": "yesterday 表示过去，所以用过去式 went。",
+      "tags": ["动词", "时态"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q010",
+      "type": "choice",
+      "question": "watermelon 的中文意思是？",
+      "options": ["哈密瓜", "西瓜", "木瓜", "冬瓜"],
+      "answer": "西瓜",
+      "explanation": "watermelon 是西瓜的英文单词，夏季解暑佳品。",
+      "tags": ["水果"],
+      "difficulty": "easy"
+    }
+  ]
+}

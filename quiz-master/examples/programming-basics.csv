@@ -1,0 +1,11 @@
+id,type,question,options,answer,explanation,tags,difficulty
+p001,choice,Python中定义变量使用哪个关键字？,"def,var,int,let",def,Python使用def定义函数，变量直接赋值无需关键字,Python,基础,easy
+p002,choice,以下哪个是正确的Python注释？,"//注释,#注释,/*注释 */,--注释",#注释,Python使用#进行单行注释,Python,语法,easy
+p003,choice,Python中print()函数的作用是？,"输入数据,输出数据,计算数据,存储数据",输出数据,print()用于将数据输出到控制台,Python,函数,easy
+p004,fillblank,Python中用于结束语句的符号是__,回车,Python使用换行符结束语句，不需要分号,Python,语法,medium
+p005,choice,以下哪个不是Python的数据类型？,"int,float,str,char",char,Python中没有char类型，使用str表示字符,Python,类型,medium
+p006,choice,Python中列表(list)使用什么符号？,"(),[],{},<>",[],列表使用方括号定义,Python,数据结构,easy
+p007,choice,如何获取列表的长度？,"len(list),list.length,list.size,list.count",len(list),Python使用len()函数获取长度,Python,函数,medium
+p008,choice,Python中for循环的正确语法是？,"for i in range(5):,for (i=0; i<5; i++),for i to 5,for i in range(5)",for i in range(5):,Python使用for-in循环,Python,循环,medium
+p009,essay,请写出Python中定义一个函数的语法,def function_name(parameters): return value,"使用def关键字定义函数，冒号开始函数体",Python,函数,hard
+p010,choice,Python中字典(dict)使用什么符号？,"(),[],{},<>",{},字典使用花括号定义，键值对用冒号分隔,Python,数据结构,medium
