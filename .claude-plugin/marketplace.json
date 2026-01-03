@@ -1,87 +1,36 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "yachenyanyi-marketplace",
   "version": "1.0.0",
   "description": "Claude Code 插件市场 - 个人插件集合",
-  "author": {
+  "owner": {
     "name": "yachenyanyi",
     "url": "https://github.com/yachenyanyi"
   },
-  "homepage": "https://github.com/yachenyanyi/claude-marketplace",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yachenyanyi/claude-marketplace.git"
-  },
-  "license": "MIT",
-  "keywords": ["claude-code", "plugins", "marketplace", "quiz", "learning"],
   "plugins": [
     {
       "name": "quiz-master",
       "version": "1.0.0",
       "description": "智能刷题学习插件 - 支持题库管理、智能提问、即时反馈和学习进度追踪",
-      "author": {
-        "name": "Quiz Master Team"
-      },
-      "homepage": "https://github.com/yachenyanyi/claude-tools",
-      "repository": {
-        "type": "git",
-        "url": "https://github.com/yachenyanyi/claude-tools.git"
-      },
-      "license": "MIT",
+      "repository": "https://github.com/yachenyanyi/claude-tools.git",
+      "source": "https://github.com/yachenyanyi/claude-tools.git",
+      "category": "learning",
       "keywords": ["quiz", "learning", "education", "study", "exam", "practice"],
-      "features": [
-        "多格式题库支持 (JSON/CSV/TXT/MD/Excel/Word/PDF)",
-        "AI 智能提取题目",
-        "基于遗忘曲线的智能推荐",
-        "学习数据分析和薄弱点识别",
-        "交互式答题和即时反馈"
-      ],
       "commands": [
-        {
-          "name": "quiz-import",
-          "description": "导入题库文件，支持多种格式"
-        },
-        {
-          "name": "quiz-start",
-          "description": "开始答题会话"
-        },
-        {
-          "name": "quiz-status",
-          "description": "查看学习进度和统计"
-        },
-        {
-          "name": "quiz-analyze",
-          "description": "分析薄弱知识点"
-        },
-        {
-          "name": "quiz-list",
-          "description": "管理题库列表"
-        }
+        "quiz-import",
+        "quiz-start",
+        "quiz-status",
+        "quiz-analyze",
+        "quiz-list"
       ],
       "skills": [
-        {
-          "name": "quiz-format-parser",
-          "description": "智能解析多种题库格式"
-        },
-        {
-          "name": "quiz-ai-extractor",
-          "description": "从文档中 AI 提取题目"
-        },
-        {
-          "name": "quiz-learning-analytics",
-          "description": "学习数据分析"
-        }
+        "quiz-format-parser",
+        "quiz-ai-extractor",
+        "quiz-learning-analytics"
       ],
       "agents": [
-        {
-          "name": "learning-analyzer",
-          "description": "深度学习分析代理"
-        }
-      ],
-      "install": {
-        "type": "git",
-        "url": "https://github.com/yachenyanyi/claude-tools.git",
-        "subpath": null
-      }
+        "learning-analyzer"
+      ]
     }
   ]
 }
